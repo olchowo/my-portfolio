@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-csale=1.0">
-		
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700italic,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
 		<script   src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
 		<script src="js/app.js"></script>
@@ -13,9 +13,9 @@
 	</head>
 	
 	<body>
-		<header class="main-header main-width">
+		<header id="s1" class="main-header">
 			<div class="top-logo"></div>
-			<nav class="top-nav">
+			<nav class="top-nav main-width">
 				<div class="menu-icon"></div>
 				<ul>
 					<li><a href="#s2">about me</a></li>
@@ -25,7 +25,7 @@
 			</nav>
 		</header>
 		
-		<section id="s2">
+		<section id="s2" class="main-width">
 			<h3>about me</h3>
 			<div class="aside">
 				<ul class="skills">professional skills:
@@ -84,26 +84,60 @@
 				</div>
 				<ul class="about-edu">
 					<li><h4>education:</h4></li>
-					<li>2003-2009  Polish Philology / specialization: Publishing (Masters degree) / University of Gdańsk, Poland</li>
-					<li>2008-2009  Academic Course of Typography / Cardinal Wyszyński University in Warsaw, Poland</li>
-					<li>2016  Front-end Developer Course / Coders Lab, Krakow, Poland</li>
+					<li>2003-2009 Polish Philology / specialization: Publishing (Masters degree) / University of Gdańsk, Poland</li>
+					<li>2008-2009 Academic Course of Typography / Cardinal Wyszyński University in Warsaw, Poland</li>
+					<li>2016 Front-end Developer Course / Coders Lab, Krakow, Poland</li>
 				</ul>
 				<ul class="about-work">
 					<li><h4>work experience:</h4></li>
-					<li>2009-2013  DTP specialist / publishing house <a href="http://terytoria.com.pl/">słowo/obraz terytoria</a>, Gdańsk, Poland</li>
-					<li>2014-2015  data analist &amp; editor / Swiss Post Solutions s.r.o. (project for Rovi Corporation), Bratislava, Slovakia</li>
+					<li>2009-2013 DTP specialist / publishing house <a href="http://terytoria.com.pl/">słowo/obraz terytoria</a>, Gdańsk, Poland</li>
+					<li>2014-2015 data analist &amp; editor / Swiss Post Solutions s.r.o. (project for Rovi Corporation), Bratislava, Slovakia</li>
 				</ul>
 			</div>
+			<p>you can review my ready-to-print cv <a href="#">in here</a></p>
 		</section>
 		
-		<section id="s3">
+		<section id="s3" class="main-width">
 			<h3>portfolio</h3>
 			<div class="pf-items">
 				<article>
-					
+					<h4>sit on chair</h4>
+					<button>check it on Github</button>
+				</article>
+				<article>
+					<h4>bahagaskara</h4>
+					<button>check it on Github</button>
+				</article>
+				<article>
+					<h4>mailing</h4>
+					<button>check it on Github</button>
+				</article>
+				<article>
+					<h4>green point</h4>
+					<button>check it on Github</button>
 				</article>
 			</div>
 		</section>
 		
+		<section id="s4" class="main-width">
+			<h3>contact me:</h3>
+			<div class="contact">
+				<p>Aleksandra Dąbrowska</p>
+				<!-- before: e-mail icon --><p>olchowo@gmail.com</p>
+				<!-- before: mobile icon --><p>&#40;+421&#41; 907 358 781</p>
+				<p>&#40;+48&#41; 508 050 252</p>
+				<!-- before: linkedIn icon --><a href="http://sk.linkedin.com/in/olkadabrowska
+">my profile at linkedIn
+</a>
+				<!-- before: Github icon --><a href="https://github.com/olchowo">my account on Github</a>
+			</div>
+		</section>
+		
+		<footer>
+			<div class="footer-content  main-width">
+				<p>&copy; olka dąbrowska, 2016</p>
+				<a href="#s1">back to top</a>
+			</div>
+		</footer>
 	</body>
 </html>

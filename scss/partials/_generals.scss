@@ -1,0 +1,17 @@
+* {
+	font-family: 'Lato', 'Tahoma', sans-serif;
+	font-size: 12;
+	color: $dgray;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	
+	&:hover {
+		color: $orange;
+	}
+}
