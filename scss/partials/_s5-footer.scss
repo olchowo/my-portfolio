@@ -1,0 +1,25 @@
+footer {
+	height: 60px;
+	width: 100%;
+	background-color: $dgray;
+	margin-top: 30px;
+	
+	.footer-content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+		p {
+			color: floralwhite;
+		}
+		
+		a {
+			color: lighten(crimson, 10);
+			font-weight: bold;
+			
+			&:hover {
+				color: crimson;
+			}
+		}
+	}
+}

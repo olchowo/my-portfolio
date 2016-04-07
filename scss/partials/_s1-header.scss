@@ -1,0 +1,62 @@
+#s1 {
+	background-color: $dgray;
+	width: 100%;
+	min-height: 60px;
+	position: fixed;
+	top: 0;
+	
+	.main-width {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 10px;
+	}
+	
+	.top-logo {
+		color: floralwhite;
+		font-size: 24px;
+		line-height: 0.8;
+		width: 120px;
+	}
+
+	.top-nav {
+		position: relative;
+		
+		.material-icons {
+			color: floralwhite;
+			font-size: 24px;
+			border: 1px solid hotpink;
+			width: 40px;
+			height: 40px;
+			padding: 8px;
+		}
+			
+		.nav-ul {
+			border: 1px solid hotpink;
+			position: absolute;
+			padding-top: 10px;
+			right: 0;
+				
+			li {
+				height: 40px;
+				width: 300px;
+				padding: 10px;
+				background-color: $dgray;
+				font-size: 14px;
+				text-transform: uppercase;
+				text-align: center;
+				border: 1px solid 4mgray;
+				
+				a {
+					color: floralwhite;
+						
+					&:hover {
+						color: crimson;
+					}
+				}
+			}
+		}
+	}
+}
+
+

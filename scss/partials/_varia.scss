@@ -10,5 +10,42 @@ $mgray: #757575;
 $dgray: #424242;
 
 
-/* background gradient */
+/* background gradients: 
+all gradients are from http://lea.verou.me/css3patterns 
+gradient-colors are changed to floralwhite/silver
+*/
+
+/* gradient created by Lea Verou; resource: http://lea.verou.me/css3patterns/#seigaiha */
+%fans {
+	background-color: silver;
+	background-image: 
+	radial-gradient(circle at 100% 150%, silver 24%, floralwhite 25%, floralwhite 28%, silver 29%, silver 36%, floralwhite 36%, floralwhite 40%, transparent 40%, transparent),
+	radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, floralwhite 36%, floralwhite 40%, transparent 40%, transparent),
+	radial-gradient(circle at 50%  100%, floralwhite 10%, silver 11%, silver 23%, floralwhite 24%, floralwhite 30%, silver 31%, silver 43%, floralwhite 44%, floralwhite 50%, silver 51%, silver 63%, floralwhite 64%, floralwhite 71%, transparent 71%, transparent),
+	radial-gradient(circle at 100% 50%, floralwhite 5%, silver 6%, silver 15%, floralwhite 16%, floralwhite 20%, silver 21%, silver 30%, floralwhite 31%, floralwhite 35%, silver 36%, silver 45%, floralwhite 46%, floralwhite 49%, transparent 50%, transparent),
+	radial-gradient(circle at 0    50%, floralwhite 5%, silver 6%, silver 15%, floralwhite 16%, floralwhite 20%, silver 21%, silver 30%, floralwhite 31%, floralwhite 35%, silver 36%, silver 45%, floralwhite 46%, floralwhite 49%, transparent 50%, transparent);
+	background-size: 100px 50px;
+	background-repeat: repeat;
+}
+
+/* gradient created by Antoine Bernier; resource: http://lea.verou.me/css3patterns/#houndstooth */
+%tooth {
+	background:
+	linear-gradient(-45deg, floralwhite 25%, transparent 25%, transparent 75%, silver 75%, silver) 0 0,
+	linear-gradient(-45deg, silver 25%, transparent 25%, transparent 75%, floralwhite 75%, floralwhite) 1em 1em,
+	linear-gradient(45deg, silver 17%, transparent 17%, transparent 25%, silver 25%, silver 36%, transparent 36%, transparent 64%, silver 64%, silver 75%, transparent 75%, transparent 83%, silver 83%) 1em 1em;
+	background-color: floralwhite;
+	background-size: 2em 2em;
+	background-repeat: repeat;
+}
+
+/* gradient created by Lea Verou; resource: http://lea.verou.me/css3patterns/#polka-dot */
+%dots {
+	background-color: silver;
+	background-image: radial-gradient(floralwhite 15%, transparent 16%),
+	radial-gradient(floralwhite 15%, transparent 16%);
+	background-size:60px 60px;
+	background-position: 0 0, 30px 30px;
+	background-repeat: repeat;
+}
 

@@ -1,0 +1,36 @@
+$(function() {
+	
+	/* top menu for mobile screen */
+	
+	var menuIcon = $('.menu-icon');
+	var menu = $('.nav-ul');
+	
+	menu.hide();
+	
+	menuIcon.on('click', function() {
+		$(menu).toggle(200);
+	});
+	
+	
+	/* viisbility of part of "about me" section */
+	
+	var showMore = $('#show-more');
+	var showLess = $('#show-less');
+	var aboutMore = $('#about-more');
+	
+	aboutMore.hide();
+	showLess.hide();
+	
+	var showingAbout = function() {
+		$(aboutMore).slideToggle(300);
+		$(showMore).toggle();
+		$(showLess).toggle();
+	};
+	
+	showMore.on('click', showingAbout);
+	
+	showLess.on('click', showingAbout);
+	
+	
+});
+  

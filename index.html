@@ -4,97 +4,103 @@
 	
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-csale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700italic,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
 		<script   src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
 		<script src="js/app.js"></script>
-		<title>olka dąbrowska - portfolio</title>
+		<title>olka dąbrowska &ndash; portfolio</title>
 	</head>
 	
 	<body>
-		<header id="s1" class="main-header">
-			<div class="top-logo"></div>
-			<nav class="top-nav main-width">
-				<div class="menu-icon"></div>
-				<ul>
-					<li><a href="#s2">about me</a></li>
-					<li><a href="#s3">portfolio</a></li>
-					<li><a href="#s4">contact</a></li>
-				</ul>
-			</nav>
+		<header id="s1">
+			<div class="main-width">
+				<div class="top-logo">olka dąbrowska</div>
+				<nav class="top-nav">
+					<div class="menu-icon"><i class="material-icons">menu</i></div>
+					<ul class="nav-ul">
+						<li><a href="#s2">about me</a></li>
+						<li><a href="#s3">portfolio</a></li>
+						<li><a href="#s4">contact</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 		
 		<section id="s2" class="main-width">
 			<h3>about me</h3>
-			<div class="aside">
-				<ul class="skills">professional skills:
-					<ul class="proskills-main">main:
-						<li>html</li>
-						<li class="dots"><span>&bull; &bull; &bull; &bull;</span> &bull; &bull; &bull;</li>
-						<li>css</li>
-						<li class="dots"><span>&bull; &bull; &bull; &bull;</span> &bull; &bull; &bull;</li>
-						<li>javascript</li>
-						<li class="dots"><span>&bull; &bull; &bull;</span> &bull; &bull; &bull; &bull;</li>
-					</ul>
-					<ul class="proskills-add">additional:
-						<li>sass</li>
-						<li class="dots"><span>&bull; &bull; &bull; &bull; &bull;</span> &bull; &bull;</li>
-						<li>jquery</li>
-						<li class="dots"><span>&bull; &bull; &bull;</span> &bull; &bull; &bull; &bull;</li>
-						<li>rwd</li>
-						<li class="dots"><span>&bull; &bull; &bull; &bull;</span> &bull; &bull; &bull;</li>
-						<li>git/github</li>
-						<li class="dots"><span>&bull; &bull; &bull;</span> &bull; &bull; &bull; &bull;</li>
-						<li>photoshop</li>
-						<li class="dots"><span>&bull; &bull; &bull; &bull;</span> &bull; &bull; &bull;</li>
-						<li>indesign</li>
-						<li class="dots"><span>&bull; &bull; &bull; &bull; &bull; &bull;</span> &bull;</li>
-					</ul>
-				</ul>
-				<ul class="languages">languages:
-					<li>polish: native</li>
-					<li class="dots"><span>&bull; &bull; &bull; &bull; &bull; &bull; &bull;</span></li>
-					<li>english: proficient</li>
-					<li class="dots"><span>&bull; &bull; &bull; &bull; &bull;</span> &bull; &bull;</li>
-					<li>slovak: good enough</li>
-					<li class="dots"><span>&bull; &bull; &bull; &bull;</span> &bull; &bull; &bull;</li>
-				</ul>
-				<ul class="abilities">abilities:
-					<li>fast-learning</li>
-					<li class="dots"><span>&bull; &bull; &bull; &bull; &bull; &bull;</span> &bull;</li>
-					<li>attention to details</li>
-					<li class="dots"><span>&bull; &bull; &bull; &bull; &bull; &bull;</span> &bull;</li>
-					<li>problem-solving</li>
-					<li class="dots"><span>&bull; &bull; &bull; &bull; &bull;</span> &bull; &bull;</li>
-					<li>stress managing</li>
-					<li class="dots"><span>&bull; &bull; &bull; &bull; &bull; &bull;</span> &bull;</li>
-					<li>sense of responsibility</li>
-					<li class="dots"><span>&bull; &bull; &bull; &bull; &bull; &bull; &bull;</span></li>
-					<li>team player</li>
-					<li class="dots"><span>&bull; &bull; &bull; &bull; &bull; &bull; &bull;</span></li>
-				</ul>
-			</div>
+
 			<div class="main-about">
-				<p>My name is Olka Dąbrowska and I am an aspiring front-end developer. <a href="#about-more">more</a></p>
+				<p>My name is Olka Dąbrowska and I am an aspiring front-end developer. <span id="show-more"> &nbsp;more</span><span id="show-less"> &nbsp;less</span></p>
 				<div id="about-more">
 					<p>After a few years in pubishing I decided to broaden my horizons by learning how to translate traditional typographic rules to modern web communication. To do that I joined <a href="http://coderslab.pl/">front-end development bootcamp</a></p>
-					<p>And it was great. I've never knew, how many new things I would need to learn to acheve my goal: <span>be able to code great websites, which are both usefull and appealing for visitors</span>. And now I know.</p>
-					<p>But also: back then I wasn't able to write websites, such as the one you are just looking at or those you find below. Feel <span>free</span> to check them out - I hope <span>you'll enjoy it</span>.</p>
+					<p>And it was great. I've never knew, how many new things I would need to learn to acheve my goal: <strong>be able to code websites, which are both usefull and appealing for visitors</strong>. And now I know.</p>
+					<p>But also: back then I wasn't able to write websites, such as the one you are just looking at, or those you find below. Feel <strong>free</strong> to check them out &ndash; I hope <strong>you'll enjoy it</strong>.</p>
 				</div>
 				<ul class="about-edu">
 					<li><h4>education:</h4></li>
-					<li>2003-2009 Polish Philology / specialization: Publishing (Masters degree) / University of Gdańsk, Poland</li>
-					<li>2008-2009 Academic Course of Typography / Cardinal Wyszyński University in Warsaw, Poland</li>
-					<li>2016 Front-end Developer Course / Coders Lab, Krakow, Poland</li>
+					<li>2003&ndash;2009 &nbsp;Polish Philology / specialization: Publishing (Masters degree) / University of Gdańsk, Poland</li>
+					<li>2008&ndash;2009 &nbsp;Academic Course of Typography / Cardinal Wyszyński University in Warsaw, Poland</li>
+					<li>2016 &nbsp;Front-end Developer Course / Coders Lab, Krakow, Poland</li>
 				</ul>
 				<ul class="about-work">
 					<li><h4>work experience:</h4></li>
-					<li>2009-2013 DTP specialist / publishing house <a href="http://terytoria.com.pl/">słowo/obraz terytoria</a>, Gdańsk, Poland</li>
-					<li>2014-2015 data analist &amp; editor / Swiss Post Solutions s.r.o. (project for Rovi Corporation), Bratislava, Slovakia</li>
+					<li>2009&ndash;2013 &nbsp;DTP specialist / publishing house <a href="http://terytoria.com.pl/">słowo/obraz terytoria</a>, Gdańsk, Poland</li>
+					<li>2014&ndash;2015 &nbsp;data analist &amp; editor / Swiss Post Solutions s.r.o. (project for Rovi Corporation), Bratislava, Slovakia</li>
 				</ul>
 			</div>
-			<p>you can review my ready-to-print cv <a href="#">in here</a></p>
+			
+			<div class="aside">
+				<ul class="skills">
+					<h4>professional skills:</h4>
+					<li>html</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679;</span> &#9679; &#9679; &#9679;</li>
+					<li>css</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679;</span> &#9679; &#9679; &#9679;</li>
+					<li>javascript</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679;</span> &#9679; &#9679; &#9679; &#9679;</li>
+					<li>sass</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679; &#9679;</span> &#9679; &#9679;</li>
+					<li>jquery</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679;</span> &#9679; &#9679; &#9679; &#9679;</li>
+					<li>rwd</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679;</span> &#9679; &#9679; &#9679;</li>
+					<li>git/github</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679;</span> &#9679; &#9679; &#9679; &#9679;</li>
+					<li>photoshop</li>
+					<li class="dots"><span>&bull; &bull; &bull; &bull;</span> &#9679; &#9679; &#9679;</li>
+					<li>indesign</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679; &#9679; &#9679;</span> &#9679;</li>
+				</ul>
+				<ul class="languages">
+					<h4>languages:</h4>
+					<li>polish: native</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9679;</span></li>
+					<li>english: proficient</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679; &#9679;</span> &#9679; &#9679;</li>
+					<li>slovak: good enough</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679;</span> &#9679; &#9679; &#9679;</li>
+				</ul>
+				<ul class="abilities">
+					<h4>abilities:</h4>
+					<li>fast-learning</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679; &#9679; &#9679;</span> &#9679;</li>
+					<li>attention to details</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679; &#9679; &#9679;</span> &#9679;</li>
+					<li>problem-solving</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679; &#9679;</span> &#9679; &#9679;</li>
+					<li>stress managing</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679; &#9679; &#9679;</span> &#9679;</li>
+					<li>sense of responsibility</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9679;</span></li>
+					<li>team player</li>
+					<li class="dots"><span>&#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9679;</span></li>
+				</ul>
+			</div>
+			
+			<p>You can review my ready-to-print cv <a href="#">in here</a>.</p>
 		</section>
 		
 		<section id="s3" class="main-width">
@@ -136,7 +142,7 @@
 		<footer>
 			<div class="footer-content  main-width">
 				<p>&copy; olka dąbrowska, 2016</p>
-				<a href="#s1">back to top</a>
+				<a href="#s2">back to top</a>
 			</div>
 		</footer>
 	</body>
