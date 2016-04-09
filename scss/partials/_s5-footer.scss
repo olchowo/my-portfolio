@@ -5,17 +5,23 @@ footer {
 	margin-top: 30px;
 	
 	.footer-content {
+		height: 60px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		
 		p {
 			color: floralwhite;
+			font-size: 70%;
+			
 		}
 		
 		a {
 			color: lighten(crimson, 10);
 			font-weight: bold;
+			text-transform: uppercase;
+			padding: 10px 0;
+			font-size: 70%;
 			
 			&:hover {
 				color: crimson;

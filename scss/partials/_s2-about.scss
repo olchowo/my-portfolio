@@ -27,11 +27,20 @@
 		}
 	}
 	
-	.dots {
-		padding-bottom: 10px;
+	.aside {
 		
-		span {
-			color: crimson;
+		li {
+			//text-transform: uppercase;
+			font-size: 90%;
+		}
+	
+		.dots {
+			padding-bottom: 10px;
+			font-size: 100%;
+
+			span {
+				color: crimson;
+			}
 		}
 	}
 }

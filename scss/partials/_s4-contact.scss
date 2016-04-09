@@ -3,3 +3,43 @@
 	margin-top: 30px;
 	padding: 20px;
 }
+
+.contact {
+	
+	*[class^="my-"]::before {
+		content: "";
+		width: 28px;
+		height: 28px;
+		display: inline-block;
+		background-color: $dgray;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		border-radius: 3px;
+		margin-right: 10px;
+		position: relative;
+		top: 7px;
+	}
+	
+	.my-mail::before {
+		background-image: url(../../graphics/ic_mail_outline_white_24px.svg);
+	}
+	
+	.my-mobile-sk::before {
+		background-image: url(../../graphics/ic_phone_white_24px.svg);
+	}
+
+	.my-mobile::before {
+		visibility: hidden;
+	}
+	
+	// icons for linkedIn & GitHub: http://besserwerker.com -- put it in info
+	
+	.my-li::before {
+		background-image: url(../../graphics/linkedin.svg);
+	}
+	
+	.my-gh::before {
+		background-image: url(../../graphics/github.svg);
+	}
+}

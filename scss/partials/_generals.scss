@@ -1,6 +1,6 @@
 * {
 	font-family: 'Lato', 'Tahoma', sans-serif;
-	font-size: 12;
+	font-size: 16px;
 	line-height: 1.4;
 	color: $dgray;
 	box-sizing: border-box;
@@ -30,6 +30,7 @@ a {
 }
 
 h3 {
+	font-size: 18px;
 	color: $dgray;
 	margin: 0;
 	//border: 1px solid hotpink;
@@ -55,4 +56,5 @@ button {
 	color: floralwhite;
 	text-transform: uppercase;
 	line-height: 1.2;
+	padding: 10px;
 }
