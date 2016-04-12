@@ -1,0 +1,20 @@
+#s5 {
+	margin-top: 30px;
+	background-color: floralwhite;
+	padding: 20px;
+	display: none;
+	//position: absolute;
+	//bottom: 90px;
+	
+	span {
+		font-weight: bold;
+	}
+	
+	a {
+		color: $main-color;
+		
+		&:hover {
+			color: lighten($main-color, 20);
+		}
+	}
+}

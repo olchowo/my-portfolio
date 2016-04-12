@@ -4,11 +4,23 @@ $(function() {
 	
 	var menuIcon = $('.menu-icon');
 	var menu = $('.nav-ul');
+	var menuItem = $(menu).find($('a'));
+	var portfolio = $('#s3');
 	
 	menu.hide();
 	
 	menuIcon.on('click', function() {
 		$(menu).toggle(200);
+	});
+	
+	menuItem.on('click', function() {
+		/* scrolling navigation targets to correct position */
+		$('html, body').animate({
+			scrollTop: $($(this).attr('href')).offset().top - 90
+			}, 400);
+		
+		/* hiding opened menu after click */
+		$(menu).hide(200);
 	});
 	
 	
@@ -30,6 +42,22 @@ $(function() {
 	showMore.on('click', showingAbout);
 	
 	showLess.on('click', showingAbout);
+	
+	
+	/* visibility of "about this site" section */
+	
+	var showInfo = $('a[href="#s5"]');
+	var siteInfo = $('#s5');
+	
+	showInfo.on('click', function(event) {
+		event.preventDefault();
+		if (siteInfo.is(":visible")) {
+			siteInfo.slideUp(400);
+		} else {
+			siteInfo.slideDown(200);
+		}
+	});
+
 	
 	
 });

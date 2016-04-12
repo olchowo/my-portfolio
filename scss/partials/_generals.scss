@@ -25,7 +25,7 @@ a {
 	text-decoration: none;
 	
 	&:hover {
-		color: crimson;
+		color: $lgray;
 	}
 }
 
@@ -38,7 +38,7 @@ h3 {
 
 h4 {
 	color: $dgray;
-	border: 1px solid hotpink;
+	//border: 1px solid hotpink;
 	margin: 30px 0 10px 0;
 }
 
@@ -51,10 +51,16 @@ h5 {
 button {
 	min-height: 40px;
 	background-color: $dgray;
+	border: 1px solid darken($dgray, 10);
 	border-radius: 3px;
 	font-size: 70%;
 	color: floralwhite;
 	text-transform: uppercase;
+	word-spacing: 0.30em;
 	line-height: 1.2;
 	padding: 10px;
+	
+	&:visited {
+		color: $lgray;
+	}
 }

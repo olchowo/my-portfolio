@@ -1,7 +1,12 @@
 #s3 {
-	background-color: floralwhite;
+	background-color: $mgray;
 	margin-top: 30px;
 	padding: 20px;
+	
+	h3 {
+		color: floralwhite;
+		font-weight: normal;
+	}
 	
 	.pf-items {
 		display: flex;
@@ -13,6 +18,7 @@
 		article {
 			margin: 10px;
 			margin-bottom: 30px;
+			color: floralwhite;
 			//border: 1px solid crimson;
 			display: flex;
 			flex-flow: column nowrap;
@@ -23,10 +29,12 @@
 				height: 160px;
 				width: 160px;
 				border-radius: 49%;
+				color: $main-color;
 				margin: 0;
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				background-color: floralwhite;
 			}
 			
 			button {

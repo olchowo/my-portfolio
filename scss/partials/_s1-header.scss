@@ -4,6 +4,7 @@
 	min-height: 60px;
 	position: fixed;
 	top: 0;
+	z-index: 99;
 	
 	.main-width {
 		display: flex;
@@ -56,9 +57,20 @@
 				font-size: 12px;
 					
 				&:hover {
-					color: lighten(crimson, 15);
+					color: $lgray;
+				}
+				
+				&:target:before {
+					content:"";
+					display:block;
+					height:90px; /* fixed header height*/
+					margin:-90px 0 0; /* negative fixed header height */
 				}
 			}
+		}
+		
+		a[href='#s3'] {
+			
 		}
 	}
 }
