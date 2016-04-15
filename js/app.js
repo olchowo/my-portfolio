@@ -46,18 +46,15 @@ $(function() {
 	
 	/* visibility of "about this site" section */
 	
-	var showInfo = $('a[href="#s5"]');
+	var showInfo = $('.show-s5');
 	var siteInfo = $('#s5');
 	
 	showInfo.on('click', function(event) {
-		event.preventDefault();
-		if (siteInfo.is(":visible")) {
-			siteInfo.slideUp(400);
-		} else {
-			siteInfo.slideDown(200);
-		}
+		console.log(siteInfo);
+		siteInfo.toggleClass('hide-info', 'show-info');
+		console.log(siteInfo);
 	});
-
+	
 	
 	
 });

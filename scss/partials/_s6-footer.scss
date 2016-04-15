@@ -1,3 +1,16 @@
+%bottom-links {
+	color: $main-color;
+	text-shadow: 0 1px lighten($main-color, 10);
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-size: 70%;
+
+	&:hover {
+		color: $main-color;
+	}
+}
+
 footer {
 	height: 60px;
 	width: 100%;
@@ -21,16 +34,11 @@ footer {
 			justify-content: space-between;
 			
 			a {
-				color: $main-color;
-				text-shadow: 0 1px lighten($main-color, 10);
-				font-weight: bold;
-				text-transform: uppercase;
-				padding: 10px 0;
-				font-size: 70%;
-
-				&:hover {
-					color: $main-color;
-				}
+				@extend %bottom-links;
+			}
+			
+			.show-s5 {
+				@extend %bottom-links;
 			}
 		}
 	}
