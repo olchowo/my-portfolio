@@ -43,19 +43,5 @@ $(function() {
 	
 	showLess.on('click', showingAbout);
 	
-	
-	/* visibility of "about this site" section */
-	
-	var showInfo = $('.show-s5');
-	var siteInfo = $('#s5');
-	
-	showInfo.on('click', function(event) {
-		console.log(siteInfo);
-		siteInfo.toggleClass('hide-info', 'show-info');
-		console.log(siteInfo);
-	});
-	
-	
-	
 });
   

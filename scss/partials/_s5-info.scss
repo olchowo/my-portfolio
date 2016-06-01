@@ -19,16 +19,3 @@
 		}
 	}
 }
-
-.hide-info {
-	//display: none;
-	max-height: 0;
-	//transition: max-height 3s;
-	overflow: hidden;
-}
-
-.show-info {
-	
-	max-height: 500px;
-	//transition: height 3s ease-in;
-	}

@@ -20,26 +20,18 @@ footer {
 	.footer-content {
 		height: 100%;
 		display: flex;
-		flex-flow: column nowrap;
 		justify-content: space-between;
+		align-items: center;
 		
 		p {
 			color: floralwhite;
 			font-size: 70%;
 			padding: 0;
+			display: inline-block;
 		}
 		
-		div {
-			display: flex;
-			justify-content: space-between;
-			
-			a {
+		div a {
 				@extend %bottom-links;
-			}
-			
-			.show-s5 {
-				@extend %bottom-links;
-			}
 		}
 	}
 }
